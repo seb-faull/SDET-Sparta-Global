@@ -4,7 +4,7 @@
 
 ### - RSPEC
 
-This Lab I successfully tested FizzBuzz between 1..100 in an array
+This Lab I successfully tested FizzBuzz between 1..100 in an array.
 For this I continually unit tested code
 
 ### The tests runs in 4 parts:
