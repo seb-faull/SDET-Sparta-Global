@@ -4,7 +4,7 @@ class FizzBuzz
     (1..100).to_a
   end
 
-  def sequence
+  def range
     numbers.collect do |i|
       if ((i % 3) == 0) and ((i % 5) == 0)
         'FizzBuzz'
