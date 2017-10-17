@@ -13,8 +13,15 @@ describe FizzBuzz do
 
   it 'should print Fizz for multiples of 3' do
     fb = FizzBuzz.new
-    result = game.sequence
+    result = fb.sequence
     expect(result[2]).to eq('Fizz')
+  end
+
+
+  it 'should print FizzBuzz for multiples of 3 and 5' do
+    fb = FizzBuzz.new
+    result = fb.sequence
+    expect(result[14]).to eq('FizzBuzz')
   end
 
 
