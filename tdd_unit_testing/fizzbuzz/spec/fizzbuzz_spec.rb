@@ -18,6 +18,13 @@ describe FizzBuzz do
   end
 
 
+  it 'should print Buzz for multiples of 5' do
+    fb = FizzBuzz.new
+    result = fb.sequence
+    expect(result[4]).to eq('Buzz')
+  end
+
+
   it 'should print FizzBuzz for multiples of 3 and 5' do
     fb = FizzBuzz.new
     result = fb.sequence
