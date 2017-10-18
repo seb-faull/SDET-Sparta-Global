@@ -1,5 +1,5 @@
 require 'json'
 
-RSpec.configuration do |config|
+RSpec.configure do |config|
   config.formatter = :documentation
 end
