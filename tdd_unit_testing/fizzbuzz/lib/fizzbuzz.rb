@@ -10,8 +10,11 @@ class FizzBuzz
         'FizzBuzz'
       elsif (i % 3) == 0
         'Fizz'
-      else (i % 5) == 0
+      elsif (i % 5) == 0
+
         'Buzz'
+      else
+        i
       end
     end
   end

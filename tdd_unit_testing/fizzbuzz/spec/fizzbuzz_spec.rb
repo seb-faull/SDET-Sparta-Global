@@ -2,6 +2,7 @@ require_relative 'spec_helper'
 
 describe FizzBuzz do
 
+
   it 'should generate a range between 1 and 100' do
     fb = FizzBuzz.new
 
