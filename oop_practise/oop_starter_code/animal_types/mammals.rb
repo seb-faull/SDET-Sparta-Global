@@ -24,8 +24,6 @@ module Mammals
       puts 'I have 2 legs'
       end
     end
-
-
 end
 
 # flipper = Mammals::Quadraped.new

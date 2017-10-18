@@ -16,9 +16,7 @@ class Animal < LivingOrganism
   def self.traits
     puts 'breathe, eat, drink, speak, pro-create'
   end
-
-
-
+  
 end
 
 # wallace = Animal.new
