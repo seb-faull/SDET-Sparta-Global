@@ -30,5 +30,5 @@ describe FizzBuzz do
     result = fb.range
     expect(result[14]).to eq('FizzBuzz')
   end
-  
+
 end
