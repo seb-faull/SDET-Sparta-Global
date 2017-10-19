@@ -1,7 +1,7 @@
 # Parsing Data and Hash Parsing with JSON
 ### In order to parse data and test it you must
 
-``` require 'spec_helper' ``` 
+``` require 'spec_helper' ```
 
 ``` require 'json' ``` - considering you have installed json locally in your machine's environment
 
@@ -14,15 +14,15 @@ end
 ```
 
 #### The tests run in 3 parts:
-  
+
   1) it 'should have the key colour for each data object'
   2) it "the colour red should have the hex value of '#FF0' "
   3) it "the colour green should have the RGBA value of '0,255,0,1'
-  
-  Hashes, keys and values of hashes needs to be accessed in order for it to be parsed correctly and pass the tests. 
-  
+
+  Hashes, keys and values of hashes needs to be accessed in order for it to be parsed correctly and pass the tests.
+
   See below to the JSON data that was used:
-  
+
   ``` {
   "colors": [
 	{
@@ -81,7 +81,3 @@ end
   ]
 }
 ```
-
-
-
-  
