@@ -1,5 +1,4 @@
-require 'json'
-require 'httparty'
+require 'nokogiri'
 
 RSpec.configure do |config|
   config.formatter = :documentation

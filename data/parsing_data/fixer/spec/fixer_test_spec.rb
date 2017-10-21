@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'Fixer tests' do
 
   before(:all) do
-    @json = JSON.parse(File.read('fixer.json'))
+    @json = JSON.parse(HTTParty.get('http://api.fixer.io/latest').body)
   end
 
 
@@ -14,7 +14,7 @@ describe 'Fixer tests' do
 
   it 'should have a "date" key with a value of "2017-07-26" for the data object' do
     expect(@json).to have_key("date")
-    expect(@json["date"]).to eq("2017-07-26")
+    expect(@json["date"]).to eq("2017-10-20")
   end
 
   it 'should have a "rates" key with a hash value' do
@@ -23,7 +23,7 @@ describe 'Fixer tests' do
   end
 
   it 'should have their keys equal to the data type of a string' do
-    expect(@json["rates"]).to be_kind_of(String)
+    expect(@json["rates"]).to be_kind_of(Hash)
   end
 
   it 'all rates should be have a data type of float' do
