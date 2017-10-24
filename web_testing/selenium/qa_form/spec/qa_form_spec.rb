@@ -157,4 +157,9 @@ describe 'qaform' do
     expect(selected_command).to eq 'Browser Commands' || 'Navigation Commands' || 'Switch Commands' || 'Wait Commands' || 'WebElement Commands'
   end
 
+  it 'should click on the Button tag called button' do
+    expect(@driver.find_element(:id, 'submit').displayed?)
+    expect@driver.find_element(:id, 'submit').click
+  end
+
 end
