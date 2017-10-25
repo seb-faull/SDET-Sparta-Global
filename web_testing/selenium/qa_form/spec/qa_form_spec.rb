@@ -20,6 +20,8 @@ describe 'qaform' do
   it 'should display and click on the link: Link Test' do
     expect(@driver.find_element(:link, 'Link Test').displayed?)
     expect(@driver.find_element(:link, 'Link Test').click)
+    #before navigating back test to find an element on the new page
+
     @driver.navigate().back()
   end
 
