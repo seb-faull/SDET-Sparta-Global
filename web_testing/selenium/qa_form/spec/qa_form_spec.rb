@@ -148,7 +148,7 @@ describe 'qaform' do
     expect(selected_option).to eq 'Antartica'
   end
 
-  it 'should select the Browser Commands option from one of the Selenium Commands menu' do
+  it 'should select one of the command options from the Selenium Commands menu' do
     command_selector = @driver.find_element(:name, 'selenium_commands')
     options = command_selector.find_element(tag_name: 'option')
     options.click if options.text == 'Browser Commands' || options.text == 'Navigation Commands' || options.text == 'Switch Commands' || options.text == 'Wait Commands' || options.text == 'WebElement Commands'
