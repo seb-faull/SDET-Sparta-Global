@@ -29,8 +29,12 @@ class BbcRegisterPage
     find_field('Password')
   end
 
+  def password_field_tab
+    password_field.send_keys(:tab)
+  end
+
   def check_error_message
-    find(:xpath, '//*[@id="form-error-password"]').text
+    find(:xpath, '//*[@id="form-message-password"]').text
   end
 
 end

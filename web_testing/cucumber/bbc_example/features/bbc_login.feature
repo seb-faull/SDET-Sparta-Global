@@ -1,6 +1,7 @@
+@login
 Feature: User Login
-as a User
-i want to be able to login to the bbc site
+As a User
+I want to be able to login to the bbc site
 
   Scenario: If I log in with invalid credentials I receive a valid error
     Given I am on the sign in page
@@ -8,7 +9,6 @@ i want to be able to login to the bbc site
     And I click the login
     Then I receive a valid error
 
-    @test
   Scenario: If I input an incorrect password when logging in, I receive a password error
     Given I am on the sign in page
     When I input a valid username
