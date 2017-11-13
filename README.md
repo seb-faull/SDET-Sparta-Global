@@ -26,5 +26,5 @@ RSPEC is a unit test framework that we will be working with and which is mostly 
 ##### TDD
 ##### BDD
 
-#### The Cone of Hell and the Testing Pyramid of Happiness can be conveyed as so:
+## The Cone of Hell and the Testing Pyramid of Happiness can be conveyed as so:
 ![Image of the testing pyramid and cone of hell](test-pyramid.png)
