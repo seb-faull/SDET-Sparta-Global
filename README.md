@@ -4,7 +4,13 @@ Whilst being trained in SDET (Software Development Engineer in Test), this will 
 
 # Main Technologies that are used:
 #### Ruby
-#### RSPEC
+#### RSpec
+#### Cucumber
+#### JSON
+#### XML
+#### Capybara
+#### YAML
+#### Httparty
 
 # Overview
 
@@ -16,6 +22,10 @@ RSPEC is a unit test framework that we will be working with and which is mostly 
 ##### Integration
 ##### API
 ##### Component
-##### Integration
 ##### Manual
+##### TDD
+##### BDD
 
+#### The Cone of Hell and the Testing Pyramid of Happiness can be conveyed as so:
+![Image file]
+(test-pyramid.png)
