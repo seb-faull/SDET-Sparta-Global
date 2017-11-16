@@ -19,3 +19,6 @@ class FizzBuzz
     end
   end
 end
+
+fb = FizzBuzz.new
+puts fb.range
